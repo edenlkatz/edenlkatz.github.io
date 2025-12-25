@@ -103,8 +103,8 @@ h1{
 }
 
 .card{
-  border: 1px solid var(--line);
-  border-radius: 16px;
+  /* border: 1px solid var(--line);
+  border-radius: 16px; */
   padding: 16px;
   margin: 12px 0;
 }
