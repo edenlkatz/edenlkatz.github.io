@@ -116,9 +116,19 @@ footer{
   font-size: 14px;
 }
 
+.intro{
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.intro-text{
+  max-width: 520px;
+}
+
 .profile-photo{
   width: 220px;
-  max-width: 100%;
   border-radius: 18px;
-  margin: 24px 0;
+  flex-shrink: 0;
 }
