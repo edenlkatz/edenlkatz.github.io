@@ -1,11 +1,50 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>My first GitHub Pages site</title>
-  </head>
-  <body>
-    <h1>Hello, world 👋</h1>
-    <p>This is my first website hosted on GitHub Pages.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eden Katz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="index.html">Eden Katz</a>
+        <nav class="navlinks">
+          <a class="active" href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="design-projects.html">Design Projects</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Hi, I’m Eden Katz.</h1>
+    <p class="subtitle">I’m a senior studying mechanical engineering at Columbia University.</p>
+
+    <div class="actions">
+      <a class="button primary" href="research.html">See my research</a>
+      <a class="button" href="design-projects.html">See design projects</a>
+    </div>
+
+    <section class="section">
+      <div class="card">
+        <strong>Contact</strong>
+        <p style="margin:8px 0 0;">Email me at <a href="mailto:ek3091@columbia.edu">ek3091@columbia.edu</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Eden Katz
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
