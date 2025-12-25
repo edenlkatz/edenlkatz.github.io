@@ -132,3 +132,8 @@ footer{
   border-radius: 0px;
   flex-shrink: 0;
 }
+
+.intro-subtitle{
+  font-size: 22px;   /* try 20–24px */
+  line-height: 1.5;
+}
