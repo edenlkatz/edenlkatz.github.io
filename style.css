@@ -129,6 +129,6 @@ footer{
 
 .profile-photo{
   width: 220px;
-  border-radius: 18px;
+  border-radius: 0px;
   flex-shrink: 0;
 }
