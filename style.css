@@ -137,3 +137,9 @@ footer{
   font-size: 22px;   /* try 20–24px */
   line-height: 1.5;
 }
+
+.research-poster-2025{
+  width: 700px;
+  border-radius: 0px;
+  flex-shrink: 0;
+}
