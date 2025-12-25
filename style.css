@@ -107,6 +107,7 @@ h1{
   border-radius: 16px; */
   padding: 16px;
   margin: 12px 0;
+  font-size: 22px;
 }
 
 footer{
@@ -139,7 +140,7 @@ footer{
 }
 
 .research-poster-2025{
-  width: 520px;
+  width: 700px;
   border-radius: 0px;
   flex-shrink: 0;
 }
