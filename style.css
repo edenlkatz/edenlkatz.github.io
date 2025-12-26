@@ -223,3 +223,59 @@ footer{
   object-fit: cover;
 }
 
+/* --- Google-Sites-ish project page layout --- */
+.project-page h1{
+  margin-bottom: 10px;
+}
+
+.project-goal{
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 75ch;
+  margin: 0 0 22px;
+}
+
+.project-section{
+  margin-top: 26px;
+}
+
+.project-section h2{
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+
+.figure{
+  margin: 14px 0;
+}
+
+.figure img, .figure video{
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  display: block;
+  background: #f2f2f2;
+}
+
+.figcaption{
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* optional: a simple two-up image row like Google Sites sometimes shows */
+.figure-row{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+@media (max-width: 760px){
+  .figure-row{ grid-template-columns: 1fr; }
+}
+
+.project-nav{
+  display:flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+}
